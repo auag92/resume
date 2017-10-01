@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.3, 30 April 2017) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+% \definecolor{VividPurple}{HTML}{3E0097}
+% \definecolor{VividPurple}{HTML}{0047AB}
+\definecolor{VividPurple}{HTML}{2E4053}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+% \addbibresource{sample.bib}
+
+\begin{document}
+\name{Apaar Shanker}
+\tagline{College of Computing, Georgia Tech}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+% \photo{2.5cm}{georgia-tech-logo.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{ashanker9@gatech.edu}
+  \phone{404-955-2251}
+  % \mailaddress{935 Marietta Street, Apt. 336, 30318 Atlanta}
+  \location{Atlanta, GA}
+  % \homepage{marissamayr.tumblr.com/}
+  % \twitter{@marissamayer}
+  \linkedin{https://www.linkedin.com/in/apaar-shanker-47098252}
+  \github{https://github.com/materialsinnovation} % I'm just making this up though.
+% If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[ashanker-p1sidebar]{Research Statement}
+
+\begin{quote}
+Application of Machine Learning and Big Data
+techniques to
+develop predictive
+process-sturcture-property linkages
+for automation
+and accelaration of material manufacturing
+cycle.
+\end{quote}
+
+\cvsection{Projects}
+
+\cvevent{PyMKS Python Project Development}{NIST, Georgia Tech}{May 2017 -- Ongoing}{Gaithersburg, MD}
+\begin{itemize}
+\item \github{https://github.com/wd15/fmks}
+\end{itemize}
+
+\divider
+
+\cvevent{High Throughput Selection of 2D Nanoporous Zeolites}{NSF, Georgia Tech}{Sep 2016 -- ongoing}{Georgia Tech, Atlanta}
+\begin{itemize}
+\item Controlled.
+\end{itemize}
+
+\divider
+
+\cvevent{Surrogate, Predictive models for Microstructure Evolution}{NIST, Georgia Tech}{Jan 2017 -- ongoing}{Georgia Tech, Atlanta}
+
+\divider
+
+\cvevent{Modeling Alloy Solidification in presence of Convection}{IISc}{Sep 2014 -- May 2016}{Bangalore, India}
+\begin{itemize}
+\item Developed a multiphysics PDE solver over 15 months to simulate alloy solidification in presence of fluid flow.
+\item Coded entirely in C,with full
+parallelization implemented using \textbf{MPI}
+and run on ~1000 processors at the
+supercomputing facility.
+\end{itemize}
+\divider
+
+\cvevent{Gas Turbine Blades Repair}{GE India Technology Center}{May 2014 -- Sep 2014}{Bangalore, India}
+
+\begin{itemize}
+\item Modified repair protocols for the industrial Gas Turbine frames based on structural and material analysis of components resulting in savings to the tune of \$2 million for the company.
+\end{itemize}
+
+\cvsection{Core Research Areas}
+
+\wheelchart{1.5cm}{0.5cm}{%
+10/13em/accent!30/Fourier Analysis and Image Processing,
+25/9em/accent!60/Spatial Statistics,
+5/12em/accent!10/Materials Engineering,
+20/12em/accent!40/Thermal and Solid State Physics,
+30/9em/accent/Machine Learning,
+5/8em/accent!20/Partial Differential Equation numerical solvers
+}
+
+\clearpage
+\end{document}
