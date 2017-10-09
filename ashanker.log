@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.25)  2 OCT 2017 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.25)  9 OCT 2017 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1194,11 +1194,6 @@ LaTeX Font Warning: Font shape `OMS/fla/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 111.
 
-
-Overfull \hbox (21.31502pt too wide) in paragraph at lines 152--152
- [][] 
- []
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ashanker.aux)
@@ -1210,13 +1205,13 @@ Package logreq Info: Writing requests to 'ashanker.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24160 strings out of 493013
- 480408 string characters out of 6135682
- 925944 words of memory out of 5000000
- 27292 multiletter control sequences out of 15000+600000
+ 23848 strings out of 493013
+ 473465 string characters out of 6135682
+ 923944 words of memory out of 5000000
+ 26980 multiletter control sequences out of 15000+600000
  85376 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,87p,1133b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,87p,1133b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{/usr/share/texlive/texmf-di
 st/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-d
@@ -1227,7 +1222,7 @@ t/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist
 1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/la
 to/Lato-RegIta.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy9.pfb>
-Output written on ashanker.pdf (1 page, 82934 bytes).
+Output written on ashanker.pdf (1 page, 81545 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
