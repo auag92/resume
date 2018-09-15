@@ -1,12 +1,12 @@
-PWD /home/apaar/resume/mycv
+PWD /home/grdstu/Dropbox (GaTech)/resume/mycv
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT ashanker.tex
-OUTPUT ashanker.log
-INPUT altacv.cls
-INPUT altacv.cls
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.tex
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.log
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/altacv.cls
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/altacv.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -37,10 +37,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -170,6 +166,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
@@ -221,106 +221,130 @@ INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/lato.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/lato.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/slantsc/slantsc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/slantsc/slantsc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT ashanker.aux
-INPUT ashanker.aux
-OUTPUT ashanker.aux
-INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/t1fla.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/t1fla.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.aux
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.aux
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.aux
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-OUTPUT ashanker.bcf
-INPUT ashanker.bbl
-INPUT ashanker.bbl
-INPUT ashanker.bbl
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-t1.tfm
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.bcf
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.bbl
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.bbl
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.bbl
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.pdf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomeone.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-INPUT ashanker-p1sidebar.tex
-INPUT ashanker-p1sidebar.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker-p1sidebar.tex
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker-p1sidebar.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomethree.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-RegIta-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-RegIta-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-OUTPUT ashanker.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Bol-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-02.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Bol-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Bol-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Bol-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Reg-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Bol-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Bol-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Reg-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-Reg-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-Reg-02.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/lato/Lato-RegIta-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-RegIta-01.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-RegIta-dotlessj.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/lato/Lato-RegIta-02.tfm
-INPUT ashanker.aux
-INPUT ashanker.run.xml
-OUTPUT ashanker.run.xml
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/lato-01.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/lato-02.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.aux
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.out
+INPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.run.xml
+OUTPUT /home/grdstu/Dropbox (GaTech)/resume/mycv/ashanker.run.xml
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/lato/Lato-Reg.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/lato/Lato-RegIta.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb

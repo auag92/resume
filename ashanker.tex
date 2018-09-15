@@ -41,7 +41,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{lato}
-
+\usepackage{hyperref}
+\usepackage{amsmath}
 % If using xelatex or lualatex:
 % \setmainfont{Lato}
 
@@ -66,8 +67,9 @@
 
 \begin{document}
 \name{Apaar Shanker}
+
+% \tagline{}
 \tagline{College of Computing, Georgia Tech}
-% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 % \photo{2.5cm}{georgia-tech-logo.jpg}
 \personalinfo{%
   % Not all of these are required!
@@ -78,8 +80,8 @@
   \location{Atlanta, GA}
   % \homepage{marissamayr.tumblr.com/}
   % \twitter{@marissamayer}
-  \linkedin{https://www.linkedin.com/in/apaar-shanker-47098252}
-  \github{https://github.com/materialsinnovation} % I'm just making this up though.
+  \linkedin{https://www.linkedin.com/in/ashanker314}
+  \github{https://github.com/auag92} % I'm just making this up though.
 % If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
 }
 
@@ -95,56 +97,61 @@
 \cvsection[ashanker-p1sidebar]{Research Statement}
 
 \begin{quote}
-Application of Machine Learning and Big Data
-techniques to
-develop predictive
-process-sturcture-property linkages
-for automation
-and accelaration of material manufacturing
-cycle.
+Automating and Accelerating Knowledge Discovery using AI
 \end{quote}
 
 \cvsection{Projects}
 
-\cvevent{PyMKS Python Project Development}{NIST, Georgia Institute of Technology}{May 2017 -- Ongoing}{Gaithersburg, MD}
+\cvevent{Python Library for Materials Knowledge Discovery (PyMKS)}{National Institute of Standards and Technology}{May 2017 -- Ongoing}{Gaithersburg, MD}
 \begin{itemize}
-\item \github{https://github.com/wd15/fmks}
-\item Implemented the Material Knowledge Systems algorithms in functional python using Pytoolz and Dask
-to leverage multiprocessing and multithreading capabilities of modern PCs.
-\end{itemize}
-
-\divider
-
-\cvevent{High Throughput Selection of 2D Nanoporous Zeolites}{NSF, Georgia Institute of Technology}{Sep 2016 -- ongoing}{Georgia Tech, Atlanta}
-\begin{itemize}
-\item Working on the development of atomistic structure descriptors for nano-porous
-materials.
-\item Working on the development of structure-property linkages for high throughput selection of
-nanoporous zeolites for desired catalytic or separation attributes.
-\end{itemize}
-
-\divider
-
-\cvevent{Surrogate, Predictive models for Microstructure Evolution}{NIST, Georgia Institute of Technology}{Jan 2017 -- ongoing}{Georgia Tech, Atlanta}
-\begin{itemize}
-\item Working on the development of process-structure linkages based on phasefield microstructure evolution models.
+\item \github{https://github.com/auag92/pymks}
+\item Worked on the development of an open source python software,
+currently available on conda-forge.
+\item Implemented novel analytics algorithms in functional
+and distributed form using PyToolz and Dask, to leverage multicore and
+multithread capabilities of modern processors.
+\item Wrapped the implementation in scikit-learn API
 \end{itemize}
 \divider
 
-\cvevent{Modeling Alloy Solidification in presence of Convection}{Indian Institute of Science}{Sep 2014 -- May 2016}{Bangalore, India}
+\cvevent{High Throughput Analytics of Molecular Datasets}{Georgia Institute of Technology}{Sep 2016 -- ongoing}{Atlanta}
 \begin{itemize}
-\item Developed a multiphysics Phasefield solver over 15 months to simulate alloy solidification in presence of fluid flow.
-\item Coded entirely in C,with full
-parallelization implemented using \textbf{MPI}
-and run on around 1000 processors at the institute supercomputing facility.
+\item Project funded by National Science Foundation
+\item Development of computer vision based feature generation and visualization workflows for nanoporous
+macromolecules.
+\item Deep learning based predictive linkages for high throughput selection of optimal materials for
+desired performance attributes.
 \end{itemize}
 \divider
 
-\cvevent{Gas Turbine Blades Repair}{GE India Technology Center}{May 2014 -- Sep 2014}{Bangalore, India}
-
+\cvevent{Discovering Equations using Deep Neural Networks}{NIST, Georgia Institute of Technology}{Jan 2017 -- ongoing}{Georgia Tech, Atlanta}
 \begin{itemize}
-\item Modified repair protocols for the industrial Gas Turbine frames based on structural and material analysis of components resulting in savings to the tune of \$2 million for the company.
+\item Working on a DNN model using tensorflow and keras, with constrained and
+free filters to learn the Partial Differential Equations governing material
+transformation and mechanical properties.
 \end{itemize}
+\divider
+
+\cvevent{High Performance Multi-Physics P.D.E Solver}{Indian Institute of Science}{Sep 2014 -- May 2016}{Bangalore, India}
+\begin{itemize}
+\item \github{https://github.com/auag92/lattice\_boltzmann\_phase\_field}
+\item Developed a fully parallelized, finite difference, multiphysics solver
+in \textbf{C} using \textbf{MPI} to simulate alloy solidification in presence
+of fluid flow on an HPC cluster.
+\end{itemize}
+\divider
+
+\cvevent{Course Projects}{Georgia Tech}{Aug 2016 -- ongoing}{Atlanta}
+\begin{itemize}
+\item A Q-Learning based AI agent to execute stock trading.
+\item A neural net model for predicting minimum energy surface for copper crystal.
+\end{itemize}
+
+% \cvevent{Gas Turbines Failure Analysis}{John F. Welch Technology Center, General Electric Co.}{May 2014 -- Sep 2014}{Bangalore, India}
+%
+% \begin{itemize}
+% \item Modified repair protocols for the industrial Gas Turbine frames based on structural and mechanical analysis of components resulting in savings to the tune of \$2 million for the company.
+% \end{itemize}
 
 % \cvsection{Core Research Areas}
 %
