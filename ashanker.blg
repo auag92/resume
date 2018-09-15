@@ -1,5 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'ashanker.blg'
-[36] biber:313> INFO - === Sat Sep 15, 2018, 15:15:44
-[60] Biber.pm:371> INFO - Reading 'ashanker.bcf'
-[136] Utils.pm:169> WARN - No data sources defined!
