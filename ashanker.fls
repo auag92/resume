@@ -1,12 +1,12 @@
-PWD /home/apaar/Dropbox (GaTech)/resume/mycv
+PWD /home/apaar/Dropbox (GaTech)/mycv
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.tex
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.log
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/altacv.cls
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/altacv.cls
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.tex
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.log
+INPUT /home/apaar/Dropbox (GaTech)/mycv/altacv.cls
+INPUT /home/apaar/Dropbox (GaTech)/mycv/altacv.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -256,9 +256,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.aux
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.aux
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.aux
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.aux
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.aux
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
@@ -270,22 +270,22 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.bcf
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.bbl
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.bbl
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.bbl
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.bcf
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.bbl
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.bbl
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.pdf
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
@@ -298,8 +298,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker-p1sidebar.tex
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker-p1sidebar.tex
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker-p1sidebar.tex
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker-p1sidebar.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
@@ -311,8 +311,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesomethree.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
@@ -332,19 +330,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.v
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.aux
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.out
-INPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.run.xml
-OUTPUT /home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.run.xml
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.aux
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.out
+INPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.run.xml
+OUTPUT /home/apaar/Dropbox (GaTech)/mycv/ashanker.run.xml
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/a_w6akef.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
