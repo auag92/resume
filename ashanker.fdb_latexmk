@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber ashanker"] 1537159570 "ashanker.bcf" "ashanker.bbl" "ashanker" 1572203151
-  "ashanker.bcf" 1572203150 87863 fbeb791b07023167e67e3a3dea717893 ""
+["biber ashanker"] 1537159570 "ashanker.bcf" "ashanker.bbl" "ashanker" 1572972269
+  "ashanker.bcf" 1572972230 87863 fbeb791b07023167e67e3a3dea717893 ""
   (generated)
   "ashanker.blg"
   "ashanker.bbl"
-["pdflatex"] 1572203149 "ashanker.tex" "/home/apaar/Dropbox (GaTech)/mycv/ashanker.pdf" "ashanker" 1572203151
+["pdflatex"] 1572972228 "ashanker.tex" "/home/apaar/Dropbox (GaTech)/mycv/ashanker.pdf" "ashanker" 1572972269
   "/etc/texmf/web2c/texmf.cnf" 1534903685 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/apaar/Dropbox (GaTech)/mycv/ashanker.aux" 1572203150 1113 5a6c2dfd133bc9b7da5979fce2340d87 ""
+  "/home/apaar/Dropbox (GaTech)/mycv/ashanker.aux" 1572972230 1113 5a6c2dfd133bc9b7da5979fce2340d87 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1480098667 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1480098667 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1480098667 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -187,21 +187,21 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539286289 4127446 f609f61f13d2a1b3b8eeda9ac3f8c12f ""
   "altacv.cls" 1506527603 8888 d75c2699ec3d2523aabb247c36d64dcb ""
   "ashanker-p1sidebar.tex" 1568679834 1764 8fc3b1ada5c4494ecbceb717d7155263 ""
-  "ashanker.aux" 1572203150 1113 5a6c2dfd133bc9b7da5979fce2340d87 ""
+  "ashanker.aux" 1572972230 1113 5a6c2dfd133bc9b7da5979fce2340d87 ""
   "ashanker.bbl" 1537159572 0 d41d8cd98f00b204e9800998ecf8427e "biber ashanker"
-  "ashanker.out" 1572203150 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "ashanker.run.xml" 1572203150 2258 e2eea8c2e8301758977e8e8c728a2d28 ""
-  "ashanker.tex" 1572203145 6716 f0a0271a933298bb6972a71ee1bbc437 ""
+  "ashanker.out" 1572972230 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "ashanker.run.xml" 1572972230 2258 e2eea8c2e8301758977e8e8c728a2d28 ""
+  "ashanker.tex" 1572972228 6836 fcb74280218f7e356fd62af430a54eff ""
   (generated)
-  "/home/grdstu/Dropbox (GaTech)/mycv/ashanker.log"
+  "ashanker.run.xml"
   "/home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.log"
   "ashanker.pdf"
   "ashanker.log"
-  "ashanker.aux"
-  "/home/apaar/Dropbox (GaTech)/mycv/ashanker.log"
-  "ashanker.bcf"
-  "/home/grdstu/Dropbox (GaTech)/mycv/ashanker.pdf"
+  "/home/grdstu/Dropbox (GaTech)/mycv/ashanker.log"
   "ashanker.out"
-  "ashanker.run.xml"
   "/home/apaar/Dropbox (GaTech)/mycv/ashanker.pdf"
+  "/home/grdstu/Dropbox (GaTech)/mycv/ashanker.pdf"
+  "ashanker.aux"
   "/home/apaar/Dropbox (GaTech)/resume/mycv/ashanker.pdf"
+  "ashanker.bcf"
+  "/home/apaar/Dropbox (GaTech)/mycv/ashanker.log"
